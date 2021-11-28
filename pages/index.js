@@ -19,7 +19,7 @@ export default function Home({ name }) {
           <p style={{ color: 'red' }}>{actionData.errorMessage}</p>
         ) : null}
 
-        <Form encType="multipart/form-data">
+        <Form>
           <p>
             <label>
               What's better when broken? <input name="answer" />
