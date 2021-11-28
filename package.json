@@ -13,10 +13,11 @@
     "raw-body": "^2.4.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "remext": "^0.1.0-beta.8"
+    "remext": "^0.1.0-beta.12"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.6",
+    "eslint": "7.x.x",
     "postcss": "^8.3.5",
     "tailwindcss": "^2.2.4"
   }
