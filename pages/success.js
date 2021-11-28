@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Link from 'next/link'
 
 export default function Success() {
-  console.log('success')
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-gray-500 text-lg">
       <Head>
