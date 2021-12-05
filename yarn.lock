@@ -3567,10 +3567,10 @@ regjsparser@^0.7.0:
   dependencies:
     jsesc "~0.5.0"
 
-remext@^0.1.0-beta.12:
-  version "0.1.0-beta.18"
-  resolved "https://registry.yarnpkg.com/remext/-/remext-0.1.0-beta.18.tgz#d37cdc5d89ffbea2076c756d9c0183548b8aacd9"
-  integrity sha512-m7y/qoHxgvp9b2yciPB7+UuymPZYd7oslGrTe4uln9QfyZpsliOucc+gVTr3hQAjm7OGXdWvlmhMQTR4lEwDQQ==
+remext@^0.1.0-beta.18:
+  version "0.1.0-beta.19"
+  resolved "https://registry.yarnpkg.com/remext/-/remext-0.1.0-beta.19.tgz#787ccb2f80011007d30768b83a0aa5291cb4368f"
+  integrity sha512-Xy6MrFAKQR6NU6mMs3fyQPisNvX2EJ/wKBLdA2KIGa2Zhaz26nfoipTz3eLJ7nvPJ0NVMnvFY4aESdJXMab3RA==
   dependencies:
     "@babel/cli" "^7.16.0"
     "@babel/plugin-transform-runtime" "^7.16.4"
