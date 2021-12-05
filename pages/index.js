@@ -12,7 +12,7 @@ export default function Home({ name }) {
 
       <main>
         <h1>
-          Welcome to <a href="https://nextjs.org">{name}!</a>
+          Welcome to <a href="https://nextjs.org">{name}</a>!
         </h1>
 
         {actionData.errorMessage ? (
