@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import { json, redirect, withRemext } from 'remext/server'
 
 export default function Success() {
   return (
@@ -19,4 +20,18 @@ export default function Success() {
   )
 }
 
-export const getServerSideProps = () => ({ props: {} })
+export const getServerSideProps = (ctx) => {
+  const action = ({ body, req, res }) => {
+    const { answer } = body
+
+    return json({
+      errorMessage: 'Wrong! Hint: how do you like them in the morning?',
+    })
+  }
+
+  const loader = async () => {
+    return { props: { name: 'Remext' } }
+  }
+
+  return withRemext(action, loader)(ctx)
+}
