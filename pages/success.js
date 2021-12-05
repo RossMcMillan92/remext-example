@@ -18,3 +18,5 @@ export default function Success() {
     </div>
   )
 }
+
+export const getServerSideProps = () => ({ props: {} })
