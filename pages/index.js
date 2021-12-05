@@ -7,7 +7,7 @@ export default function Home({ name }) {
   return (
     <div>
       <Head>
-        <title>{actionData.errorMessage ? 'Error: ' : ''}Remext</title>
+        <title>{actionData.errorMessage ? 'Error: ' : ''}Remext example</title>
       </Head>
 
       <main>
