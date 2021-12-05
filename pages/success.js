@@ -6,8 +6,7 @@ export default function Success() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-gray-500 text-lg">
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Success</title>
       </Head>
 
       <main className="flex flex-col py-44 w-full flex-1 px-20 items-center">
@@ -18,20 +17,4 @@ export default function Success() {
       </main>
     </div>
   )
-}
-
-export const getServerSideProps = (ctx) => {
-  const action = ({ body, req, res }) => {
-    const { answer } = body
-
-    return json({
-      errorMessage: 'Wrong! Hint: how do you like them in the morning?',
-    })
-  }
-
-  const loader = async () => {
-    return { props: { name: 'Remext' } }
-  }
-
-  return withRemext(action, loader)(ctx)
 }
