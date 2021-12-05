@@ -11,9 +11,7 @@ export default function Home({ name }) {
       </Head>
 
       <main>
-        <h1>
-          Welcome to <a href="https://nextjs.org">{name}</a>!
-        </h1>
+        <h1>Welcome to {name}!</h1>
 
         {actionData.errorMessage ? (
           <p style={{ color: 'red' }}>{actionData.errorMessage}</p>
@@ -47,4 +45,4 @@ const loader = async () => {
   return { props: { name: 'Remext' } }
 }
 
-export const getServerSideProps = withRemext(action, loader)
+export const getServerSideProps = withRemext({ action, loader })
