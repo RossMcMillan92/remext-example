@@ -3568,9 +3568,9 @@ regjsparser@^0.7.0:
     jsesc "~0.5.0"
 
 remext@0.x.x:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/remext/-/remext-0.1.0.tgz#8436b1927e1f7a71cd20f76b7a3da45fe2bd4f18"
-  integrity sha512-2+mGjpDgBZp3vKh2y8xyB6kp+yTtrvo4cg7oJht7ESkhdBhqkUScwnzlwFnpoviOz7WXGNe9GmuWqgkJX7/cbA==
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/remext/-/remext-0.1.1.tgz#9bab75f04514ae107c45dd6a798da7c4418665b9"
+  integrity sha512-GbgNF7PZALzDZbd/tkOs8oy+DdMyQk5QVNc1a+fuzAu3Ju74s+EWDzAN/H36KXuxxCMeuTUQquQRda8MhOXHEw==
   dependencies:
     "@babel/cli" "^7.16.0"
     "@babel/plugin-transform-runtime" "^7.16.4"
